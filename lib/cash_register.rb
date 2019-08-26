@@ -15,6 +15,8 @@ class CashRegister
    
   end 
   
+  def self.last_transaction
+  
   def apply_discount
     
     if discount == 0 
