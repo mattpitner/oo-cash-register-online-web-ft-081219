@@ -30,7 +30,7 @@ def items
 end 
 
 def void_last_transaction
-  @total.pop  
+  self.total -= self.last_transaction 
 end 
 
   
