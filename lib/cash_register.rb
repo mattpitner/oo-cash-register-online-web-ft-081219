@@ -16,7 +16,7 @@ class CashRegister
    
   end 
   
-  def self.last_transaction = price * quantity 
+   self.last_transaction = price * quantity 
     @total += self.last_transaction
   end 
   
